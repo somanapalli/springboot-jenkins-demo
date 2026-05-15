@@ -8,7 +8,7 @@ class MyController
     @GetMapping("/welcome")
     public String welcomeMessage()
     {
-        return "Welcome to Spring Boot Application";
+        return "Welcome to Spring Boot Application using jenkins";
     }
 
 }
